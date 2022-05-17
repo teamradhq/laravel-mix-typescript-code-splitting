@@ -1,0 +1,21 @@
+{
+  "name": "laravel-mix-typescript-code-splitting",
+  "version": "1.0.0",
+  "description": "Example of code splitting not working with Typescript",
+  "main": "webpack.mix.js",
+  "scripts": {
+    "mix": "mix",
+    "js": "npm run mix --language=js",
+    "ts": "npm run mix --language=ts",
+    "both": "npm run js; npm run ts"
+  },
+  "author": "Paul Beynon",
+  "license": "ISC",
+  "dependencies": {
+    "laravel-mix": "^6.0.43",
+    "typescript": "^4.6.4"
+  },
+  "devDependencies": {
+    "ts-loader": "^9.3.0"
+  }
+}

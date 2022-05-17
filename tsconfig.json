@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./",
+        "module": "commonjs",
+        "target": "es5",
+        "allowJs": false,
+        "strict": true
+    },
+    "exclude": ["node_modules"],
+    "include": ["example/**/*"]
+}
